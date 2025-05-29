@@ -42,7 +42,8 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Compras: Ao mês ou Por semana?'),
-        backgroundColor: Colors.lightGreen,
+        backgroundColor: Colors.red,
+        foregroundColor: Colors.white,
       ),
       body: Container(
         child: SingleChildScrollView(
@@ -81,7 +82,7 @@ class _HomeState extends State<Home> {
                 padding: EdgeInsets.only(top: 10),
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.lightGreen,
+                    backgroundColor: Colors.red,
                     foregroundColor: Colors.white,
                     padding: EdgeInsets.symmetric(horizontal: 20, vertical: 30),
                   ),
